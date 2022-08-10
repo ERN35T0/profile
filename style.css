@@ -1,0 +1,91 @@
+body{
+	background-image: url('images/background.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 0.8;
+	color: rgb(20, 20, 20);
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: rgb(7, 7, 7);
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+  text-align: center;
+  color: grey;
+  font-weight: 500;
+  font-stretch: narrower;
+  margin-block: 10px;
+}
+a{
+	text-decoration: none;
+	color: rgb(15, 41, 238);
+}
+#banner a{
+  color: rgb(250, 250, 250)
+}
+
+#banner a:hover{
+  text-decoration: none;
+	color: darkviolet;
+}
+
+a:hover{
+	text-decoration: none;
+	color: darkviolet;
+}
+#div1{
+  text-align: center;
+}
+
+#perfil-picture {
+  width: 300;
+}
+.button {
+  border-radius: 50%;
+}
+
+.shadow{
+	box-shadow: 2px 2px 2px grey;
+}
+#phone:hover{
+	background-color: darkgrey;
+}
+
+.social {
+  color: beige;
+  opacity: .8;
+  text-align:inherit;
+  border-radius: 15px;
+}
+.card mb-3 {
+  align-items: center;
+}
+
+.social-list {
+  color: azure;
+  font-size: medium;
+  font-stretch: expanded;
+}
+
+/* design */
+
+#top{
+  background-image: url('images/background.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 15px 0;
+	margin: 15px;
+	background-size: cover;
+	text-align: center;
+	color: dimgrey;
+	text-align: center;
+	border-radius: 5px;
+	border-width: thin;
+	box-shadow: 1px 2px 3px #b08968;
+}
